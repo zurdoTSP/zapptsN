@@ -1,0 +1,20 @@
+<resources>
+
+
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/color_accent</item>
+
+    </style>
+<style name="ToolbarStyle" parent="Base.ThemeOverlay.AppCompat.Light">
+    <item name="android:textColorPrimary">@color/color_accent</item>
+    <item name="android:textColorSecondary">@color/color_accent</item>
+</style>
+    <style name="ListFont" parent="@android:style/Widget.ListView">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:typeface">sans</item>
+    </style>
+</resources>
